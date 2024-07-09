@@ -16,9 +16,9 @@ pipeline {
         nodejs "${env.NODEJS_VERSION}" // Use the environment variable for NodeJS version
     }
 
-    // triggers {
-    //     githubPush() // This line enables the GitHub webhook trigger
-    // }
+    triggers {
+        githubPush() // This line enables the GitHub webhook trigger
+    }
 
     stages {
         stage('Checkout') {
