@@ -6,7 +6,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>React application with Jenkins integration.</p>
+        <p>
+          Automated CI/CD Pipeline for React Application Deployment Using
+          Jenkins and Docker.
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
