@@ -1,4 +1,4 @@
-# Automated CI/CD Pipeline for React Application Deployment Using Jenkins and Docker on Azure VM
+# Automated CI/CD Pipeline for React Application Deployment Using Jenkins and Docker on Azure Virtual Machine (VM)
 
 This project demonstrates an automated CI/CD pipeline for a React application. The pipeline utilizes Jenkins to build, test, and deploy the application in a Docker Nginx container whenever there is a push commit to the GitHub repository. The Jenkins server is hosted on an Azure Virtual Machine (VM).
 
